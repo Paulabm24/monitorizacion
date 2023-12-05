@@ -29,3 +29,28 @@ capacidad de desplazarse y filtrar procesos de manera más intuitiva.
     4. atop -r /var/log/
     atop_FECHA 
     5. g, m , c, d, t, T, b
+## MEMORIA
+- free: Muestra la cantidad de memoria libre y utilizada en el sistema.
+- df: Muestra el espacio utilizado y disponible en los sistemas de archivos montados.
+
+    1. df -h (muestra lo que esta montado)
+    2. df -hT (aparece el tipo de fichero)
+    3. lsblk ()
+- du: Muestra el espacio ocupado por un fichero o directorio.
+- iostat: Se utiliza para rastrear los problemas de rendimiento de los dispositivos de
+almacenamiento.
+    1. iostat "nombre disco"
+    2. iostat "nombre disco" "segundos" "nº veces">"nombre archivo" copiar algun archvio a el directorio /dev/null
+    3. cat "nombre archivo"
+## RED
+- tcpdump: Analiza el tráfico que circula por la red.
+    1. tcpdump -n -i "nombre tarjeta"
+    2. tcpdump -n -i "nombre tarjeta" net "red+mascara"
+- tcptrack: Nos muestra las conexiones establecidas, su origen, destino, estado, el tiempo
+de iddle y la velocidad de transferencia.
+- iptraf: Intercepta paquetes en la red y muestra información sobre el tráfico.
+- bandwidthd: una herramienta específica de monitorización del ancho de banda
+## PUERTOS
+
+- netstat (ss): Muestra las conexiones activas de una computadora, tanto entrantes como
+salientes.
