@@ -39,6 +39,7 @@ capacidad de desplazarse y filtrar procesos de manera más intuitiva.
 - du: Muestra el espacio ocupado por un fichero o directorio.
 - iostat: Se utiliza para rastrear los problemas de rendimiento de los dispositivos de
 almacenamiento.
+apt install sysstat
     1. iostat "nombre disco"
     2. iostat "nombre disco" "segundos" "nº veces">"nombre archivo" copiar algun archvio a el directorio /dev/null
     3. cat "nombre archivo"
