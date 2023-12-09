@@ -55,3 +55,4 @@ de iddle y la velocidad de transferencia.
 
 - netstat (ss): Muestra las conexiones activas de una computadora, tanto entrantes como
 salientes.
+- netstat -pluton
